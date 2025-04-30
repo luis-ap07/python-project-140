@@ -7,7 +7,7 @@ def play(texto, juego_func):
 
     while corrects < 3:
         pregunta, correct = juego_func()
-        print(f'Answer: {pregunta}')
+        print(f'Question: {pregunta}')
         answer = input('Your answer: ')
 
         if answer == correct:
