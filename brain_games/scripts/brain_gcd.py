@@ -1,5 +1,7 @@
+from brain_games.juegos.gcd import run
+
 def main():
-    print("Hello from python-project-140!")
+    run()
 
 if __name__ == "__main__":
     main()
