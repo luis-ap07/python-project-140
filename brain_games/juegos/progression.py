@@ -2,8 +2,7 @@ import random
 from brain_games.juegos.extras import generar_progression
 from brain_games.index import play
 
-
-def juego():
+  def juego():
     progress = generar_progression()
     hidden_index = random.randint(0, len(progress) - 1)
     correct = progress[hidden_index]
@@ -14,7 +13,7 @@ def juego():
     pregunta = ' '.join(pregunta_lista)
     return pregunta, str(correct)
 
-texto = 'What number is missing in the progression?'
+  texto = 'What number is missing in the progression?'
 
-def run():
+  def run():
     play(texto, juego)

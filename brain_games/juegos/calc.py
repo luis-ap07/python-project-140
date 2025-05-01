@@ -1,7 +1,7 @@
 from brain_games.juegos.extras import random_number, random_operador
 from brain_games.index import play
 
-def juego():
+  def juego():
     number1 = random_number()
     number2 = random_number()
     operador = random_operador()
@@ -17,7 +17,7 @@ def juego():
 
     return pregunta, str(correct)
 
-texto = 'What is the result of the expression?'
+  texto = 'What is the result of the expression?'
 
-def run():
+  def run():
     play(texto, juego)
