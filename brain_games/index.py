@@ -1,6 +1,7 @@
 from brain_games.cli import welcome_user
 
-  def play(texto, juego_func):
+
+def play(texto, juego_func):
     name = welcome_user()
     print(texto)
     corrects = 0

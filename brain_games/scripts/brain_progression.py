@@ -1,7 +1,9 @@
 from brain_games.juegos.progression import run
 
-  def main():
+
+def main():
     run()
 
-  if __name__ == "__main__":
+
+if __name__ == "__main__":
     main()
